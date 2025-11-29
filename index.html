@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<!-- header section starts  -->
+ <header id="blog-header">
+    <figure>
+    <i class="fab fa-autoprefixer"></i>
+    </figure>
+    <nav id="menu-icon">
+        <ul>
+            <li><a href="#" class="nav__link">Home</a></li>
+            <li><a href="#" class="nav__link">About</a></li>
+            <li><a href="#" class="nav__link">Archives</a></li>
+            <li><a href="#" class="nav__link">Blog Posts</a></li>
+            <li><a href="#" class="nav__link">Contact</a></li>
+        </ul>
+    </nav>
+
+ </header>
+ <!-- header ends here  -->
+<main>
+    <!-- blog baneer -->
+     <section id="blog-banner-section" class="banner">
+        <article>
+            <h1 class="section-heading banner-title">Web Development</h1>
+            <p class="banner-description">I share practical front‑end lessons: structuring semantic HTML, crafting responsive layouts, and writing JavaScript that favors clarity over clever tricks—so each project becomes easier to extend, not harder.</p>
+        </article>
+        <aside>
+            <img src="./images/sergey-zolkin-_UeY8aTI6d0-unsplash.jpg" alt="cover-image" class="image-banner">
+        </aside>
+     </section>
+     <!-- blog banner ends here -->
+      <!-- blog about starts here -->
+     <section id="blog-about" class="section-center">
+        <h2 class="section-heading">About Me</h2>
+        <div class="cards">
+            <div class="card">
+                <h3 class="card-header">Education</h3>
+                <p class="card-description ">Studied core computer science concepts and web fundamentals: semantic HTML, modern CSS layouts, JavaScript essentials, accessibility and performance. I focus on clean structure so code scales with features—not complexity.</p>
+                <button class="btn card-btn">Read More</button>
+            </div>
+            <div class="card">
+                <h3 class="card-header">Skills</h3>
+                <p class="card-description">HTML semantics, CSS Flexbox/Grid, responsive design, JavaScript (ES6+), Git workflow, and component thinking. I value readable naming, small functions, and patterns that reduce duplication.</p>
+                <button class="btn card-btn">Read More</button>
+            </div>
+            <div class="card">
+                <h3 class="card-header">Experience</h3>
+                <p class="card-description">Built and refined personal projects: turning static pages into modular layouts, optimizing images, and improving accessibility contrast. Iterative refactors taught me to measure, adjust, and keep shipping.</p>
+                <button class="btn card-btn">Read More</button>
+            </div>
+        </div>
+    </section>
+
+       <!-- blog about ends here -->
+        <!--archive section starts here-->
+        <section id="archive" class="section-center">
+            <h2 class="section-heading">Archives</h2>
+            <div class="archives">
+                <ul class="archives-lists">
+                    <li class="archives-list"><img src="./images/nik-z1d-LP8sjuI-unsplash.jpg" alt="image1" class="image-list"></li>
+
+                    <li class="archives-list"><img src="./images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg" alt="image2" class="image-list"></li>
+
+                    <li class="archives-list"><img src="./images/clark-tibbs-oqStl2L5oxI-unsplash.jpg" alt="image3" class="image-list"></li>
+                    
+                    <li class="archives-list"><img src="./images/nastia-petruk-KJHbJnwOK3Q-unsplash.jpg" alt="image4" class="image-list"></li>
+                </ul>
+            </div>
+        </section>
+        <!--archive ends here-->
+        <!-- blog contact starts here -->
+         <section id="blog-posts" class="section-center">
+            <h2 class="section-heading">Blog Posts</h2>
+            <div class="blog-posts">
+             <div class="blog-post">
+                 <aside class="blog-post-aside">
+                    <img src="./images/clark-tibbs-oqStl2L5oxI-unsplash.jpg" alt="blog-img">
+                 </aside>
+                 <article class="blog-content">
+                    <h2 class="blogpost-heading">Blog 1</h2>
+                    <h3 class="blogpost-subheading">Why Learning HTML First Matters</h3>
+                    <p class="blog-description">Before frameworks and fancy tooling, the browser only understands HTML, CSS, and JavaScript. A solid grasp of semantic HTML makes your pages more accessible, easier to style, and kinder to search engines. Master the raw materials and every framework you meet will feel less mysterious.</p>
+                    <button class="btn blog-post-button">learn more</button>
+
+                 </article>
+             </div>
+             <div class="blog-post">
+                 <aside class="blog-post-aside">
+                    <img src="./images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg" alt="blog-img">
+                 </aside>
+                 <article class="blog-content">
+                    <h2 class="blogpost-heading">Blog 2</h2>
+                    <h3 class="blogpost-subheading">CSS: From Chaos to Consistency</h3>
+                    <p class="blog-description">Most CSS pain comes from mixing structure and decoration. Group related styles, name things clearly, and lean on layout primitives like Flexbox and Grid. Consistency beats cleverness: predictable patterns free you to focus on design instead of firefighting overrides.</p>
+                    <button class="btn blog-post-button">learn more</button>
+
+                 </article>
+             </div>
+             <div class="blog-post">
+                 <aside class="blog-post-aside">
+                    <img src="./images/radek-grzybowski-eBRTYyjwpRY-unsplash.jpg" alt="blog-img">
+                 </aside>
+                 <article class="blog-content">
+                    <h2 class="blogpost-heading">Blog 3</h2>
+                    <h3 class="blogpost-subheading">JavaScript: Writing Intent, Not Tricks</h3>
+                    <p class="blog-description">Modern JavaScript offers endless shortcuts, but clarity wins long term. Prefer readable functions over nested callbacks, use descriptive variable names, and embrace small refactors early. Code that communicates intent is easier to optimize, test, and extend.</p>
+                    <button class="btn blog-post-button">learn more</button>
+
+                 </article>
+             </div>
+            </div>
+
+
+         </section>
+         <!--blog contact ends here -->
+         <!--contact section starts here -->
+         <section id="contact-section" class="section-center">
+            <h2 class="section-heading text-white" >Contact Me</h2>
+            <form>
+                <div class="form-control">
+                    <label for="name">Name</label>
+                    <input type="text" id="name"autocomplete="name" required>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" autocomplete="email" required>
+                </div>
+                <div class="form-control">
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                <div class="form-control form-btn">
+                    <button class="btn contact-btn" type="submit">Send</button>
+                </div>
+                
+            </form>
+
+         </section>
+         <!--contact section ends here -->
+
+    </main>
+    <footer class="footer">
+        <p class="copyright">
+        Copyright &copy; by Shahriar Kabir. All rights reserved.
+        </p>
+        <nav class="footer-nav">
+            <a href="" class="footer-link">
+                <i class="fab fa-home footer-icon" ></i>
+            </a>
+            <a href="https://www.facebook.com/shahriar.kabir.10048" target="_blank" class="footer-link">
+                <i class="fab fa-facebook  footer-icon" ></i>
+            </a>
+           
+            <a href="https://www.guthub.com" target="_blank" class="footer-link">
+                <i class="fab fa-github  footer-icon"  ></i>
+            </a>
+           
+            <a href="https://www.youtube.com" target="_blank" class="footer-link">
+                <i class="fab fa-youtube  footer-icon" ></i>
+            </a>
+           
+        </nav>
+    </footer>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
+</body>
+</html>/./images/sergey-zolkin-_U class="banner"eY8aTI6d0-unsplash.jpg-idid=""image-bannnerclassclass text-justifyppatrick-tomasso-Oaqk7qqNh_c-unsplash.jpg
