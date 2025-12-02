@@ -10,7 +10,7 @@ Files
 
 Preview
 - Open index.html in your browser
-- Or serve with: python -m http.server 8000 and visit http://localhost:8000
+- Or serve with:https://simple-website-blog.netlify.app/
 
 Edit
 - Change posts in index.html
