@@ -19,6 +19,3 @@ Edit
 
 Contribute
 - Fork, edit, and open a PR.
-
-License
-- No license included (add a LICENSE file if desired).
